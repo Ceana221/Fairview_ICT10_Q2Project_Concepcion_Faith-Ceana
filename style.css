@@ -1,0 +1,61 @@
+/* Shared Portfolio Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+    transform: translateY(-1px);
+}
+
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+}
+
+.glass-card {
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.2s ease;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Page-Specific Themes */
+body.theme-creator {
+    background-color: #f4f1e9;
+    color: #333;
+}
+
+body.theme-drill2 {
+    background: linear-gradient(135deg, #473701, #473701);
+    color: white;
+}
+
+body.theme-seatwork1 {
+    background: linear-gradient(135deg, #534002, #5b4901);
+    color: white;
+}
+
+body.theme-skillstest {
+    background: linear-gradient(135deg, #967903, #967903, rgb(112, 93, 2));
+    color: white;
+}
